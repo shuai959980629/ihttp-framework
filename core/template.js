@@ -18,7 +18,7 @@ exports.class.prototype = {
 				});
 			}
 		} catch (e) {
-			//不报错,继续执行
+			console.log(e); //DEBUG
 		} finally {
 			return result;
 		}
